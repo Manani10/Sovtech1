@@ -1,0 +1,42 @@
+.header{
+    margin-top: 60px;
+}
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'lora',serif;
+    color: #444;
+}
+
+
+
+.headerTitleLg{
+    position: absolute;
+    top: 10%;
+    font-size: 70px;
+    font-family: 'cursive' 'monospace';
+
+}
+
+.headerTitleSm{
+    position: absolute;
+    top:  20%;
+    font-size: 20px;
+}
+.headerImg{
+    width: 15%;
+    height: 150px;
+    margin-top: 50px;
+   border-radius: 35px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto
+ 
+
+
+}
+.headerImg:hover{
+    transform: scaleX(-1);
+}

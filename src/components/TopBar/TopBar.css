@@ -1,0 +1,49 @@
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: #b0bec5;
+    position: sticky;
+    top: 0;
+    display:flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 999;
+
+}
+.topRight{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter{
+    flex:12;
+}
+
+
+
+.topImage{
+width: 60px;
+height: 60px;
+border-radius: 60%;
+object-fit: cover;
+
+}
+
+.topList{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+.topListItem{
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
